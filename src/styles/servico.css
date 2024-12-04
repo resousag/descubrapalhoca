@@ -1,0 +1,54 @@
+#servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* Estilo do contêiner principal */
+#dishes {
+    display: grid; /* Ativa o grid */
+    grid-template-columns: repeat(3, 1fr); /* 4 colunas */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px; /* Margem interna ao redor do grid */
+    box-sizing: border-box; /* Inclui o padding no cálculo de tamanho */
+}
+
+/* Estilo para os itens individuais */
+.dish {
+    background-color: #fff; /* Cor de fundo */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Impede vazamento de conteúdo */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilo para as imagens */
+.dish img {
+    width: 80%; /* Reduz a largura para 80% do contêiner */
+    height: auto; /* Mantém a proporção original */
+    margin: 0 auto; /* Centraliza a imagem dentro do contêiner */
+    display: block; /* Garante que não haverá espaçamento indesejado */
+}
+
+
+/* Títulos */
+.dish-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+
+
+@media (max-width: 768px) {
+    #dishes {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas médias */
+    }
+}
+
+@media (max-width: 480px) {
+    #dishes {
+        grid-template-columns: 1fr; /* 1 coluna em telas pequenas */
+    }
+}

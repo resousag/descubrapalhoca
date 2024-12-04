@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <style>
+        .hotel-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .hotel {
+            width: 23%; /* Ajuste a largura para caber 4 itens por linha */
+            box-sizing: border-box; /* Inclui padding e border na largura */
+            margin-bottom: 20px; /* Espaçamento entre as linhas */
+            padding: 10px;
+            border: 1px solid #ccc; /* Adiciona uma borda para destaque */
+            border-radius: 5px; /* Cantos arredondados */
+            background-color: #f9f9f9; /* Fundo claro */
+        }
+        @media (max-width: 800px) {
+            .hotel {
+                width: 48%; /* Para telas menores, dois itens por linha */
+            }
+        }
+        @media (max-width: 500px) {
+            .hotel {
+                width: 100%; /* Para telas muito pequenas, um item por linha */
+            }
+        }
+    </style>
+    <title>Hotéis em Palhoça</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="index.html">Início</a>
+            <a href="index.html#atracoes">Atrações</a>
+            <a href="index.html#gastronomia">Gastronomia</a>
+            <a href="index.html#hospedagem">Hospedagem</a>
+            <a href="index.html#servico">Serviços</a>
+        </nav>
+    </header>
+
+    <main id="content">
+        <h1 class="title">Hotéis em Palhoça</h1>
+        <div class="hotel-list">
+            <div class="hotel">
+                <h3>Hotel do Sol</h3>
+                <p>Endereço: Rua do Sol, 101</p>
+                <p>Bairro: Praia do Sonho</p>
+                <p>Telefone: (48) 99999-1111</p>
+                <p>Instagram: @hoteldosol</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel da Lagoa</h3>
+                <p>Endereço: Av. da Lagoa, 202</p>
+                <p>Bairro: Lagoa do Peri</p>
+                <p>Telefone: (48) 94444-2222</p>
+                <p>Instagram: @hoteldalagoa</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel Estrela do Mar</h3>
+                <p>Endereço: Rua Estrela, 123</p>
+                <p>Bairro: Praia do Campeche</p>
+                <p>Telefone: (48) 99999-3333</p>
+                <p>Instagram: @hotelestreladomar</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel da Floresta</h3>
+                <p>Endereço: Rua da Floresta, 456</p>
+                <p>Bairro: Floresta Verde</p>
+                <p>Telefone: (48) 96666-4444</p>
+                <p>Instagram: @hoteldafloresta</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel do Vento Norte</h3>
+                <p>Endereço: Av. do Vento, 789</p>
+                <p>Bairro: Vento Sul</p>
+                <p>Telefone: (48) 95555-5555</p>
+                <p>Instagram: @hoteldoventonorte</p>
+            </div>
+            <div class="hotel">
+                < h3>Hotel do Encanto</h3>
+                <p>Endereço: Rua do Encanto, 321</p>
+                <p>Bairro: Encanto Verde</p>
+                <p>Telefone: (48) 92222-6666</p>
+                <p>Instagram: @hoteldocanto</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel da Alegria</h3>
+                <p>Endereço: Rua da Alegria, 654</p>
+                <p>Bairro: Alegria do Sul</p>
+                <p>Telefone: (48) 91111-7777</p>
+                <p>Instagram: @hoteldalegria</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel do Amor</h3>
+                <p>Endereço: Rua do Amor, 987</p>
+                <p>Bairro: Amor Perfeito</p>
+                <p>Telefone: (48) 98888-8888</p>
+                <p>Instagram: @hoteldolove</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel do Sorriso</h3>
+                <p>Endereço: Rua do Sorriso, 135</p>
+                <p>Bairro: Sorriso Alegre</p>
+                <p>Telefone: (48) 97777-9999</p>
+                <p>Instagram: @hoteldosorriso</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel da Liberdade</h3>
+                <p>Endereço: Rua da Liberdade, 246</p>
+                <p>Bairro: Liberdade Total</p>
+                <p>Telefone: (48) 96666-0000</p>
+                <p>Instagram: @hoteldaliberdade</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel do Horizonte</h3>
+                <p>Endereço: Rua do Horizonte, 357</p>
+                <p>Bairro: Horizonte Azul</p>
+                <p>Telefone: (48) 95555-1111</p>
+                <p>Instagram: @hoteldohorizonte</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel do Paraíso</h3>
+                <p>Endereço: Rua do Paraíso, 468</p>
+                <p>Bairro: Paraíso Verde</p>
+                <p>Telefone: (48) 94444-2222</p>
+                <p>Instagram: @hoteldoparaiso</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel do Sol Nascente</h3>
+                <p>Endereço: Rua do Sol Nascente, 579</p>
+                <p>Bairro: Nascente do Sol</p>
+                <p>Telefone: (48) 93333-3333</p>
+                <p>Instagram: @hoteldosolnascente</p>
+            </div>
+            <div class="hotel">
+                <h3>Hotel da Tradição</h3>
+                <p>Endereço: Rua da Tradição, 680</p>
+                <p>Bairro: Tradição e Cultura</p>
+                <p>Telefone: (48) 92222-4444</p>
+                <p>Instagram: @hoteldatradicao</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hotéis em Palhoça. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

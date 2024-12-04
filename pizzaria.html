@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <style>
+        .pizzaria-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .pizzaria {
+            width: 23%; /* Ajuste a largura para caber 4 itens por linha */
+            box-sizing: border-box; /* Inclui padding e border na largura */
+            margin-bottom: 20px; /* Espaçamento entre as linhas */
+            padding: 10px;
+            border: 1px solid #ccc; /* Adiciona uma borda para destaque */
+            border-radius: 5px; /* Cantos arredondados */
+            background-color: #f9f9f9; /* Fundo claro */
+        }
+        @media (max-width: 800px) {
+            .pizzaria {
+                width: 48%; /* Para telas menores, dois itens por linha */
+            }
+        }
+        @media (max-width: 500px) {
+            .pizzaria {
+                width: 100%; /* Para telas muito pequenas, um item por linha */
+            }
+        }
+    </style>
+    <title>Pizzarias em Palhoça</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="index.html#gastronomia">Gastronomia</a>
+        </nav>
+    </header>
+
+    <main id="content">
+        <h1 class="title">Pizzarias em Palhoça</h1>
+        <div class="pizzaria-list">
+            <div class="pizzaria">
+                <h3>Pizzaria do Gaúcho</h3>
+                <p>Endereço: Rua da Carne, 101</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 99999-1111</p>
+                <p>Instagram: @pizzariado gaucho</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Lago</h3>
+                <p>Endereço: Av. das Águas, 202</p>
+                <p>Bairro: Lagoa do Peri</p>
+                <p>Telefone: (48) 94444-2222</p>
+                <p>Instagram: @pizzariado lago</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Sol</h3>
+                <p>Endereço: Rua do Sol, 123</p>
+                <p>Bairro: Praia do Sonho</p>
+                <p>Telefone: (48) 99999-3333</p>
+                <p>Instagram: @pizzariadosol</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria Estrela</h3>
+                <p>Endereço: Rua das Estrelas, 456</p>
+                <p>Bairro: Bairro Alto</p>
+                <p>Telefone: (48) 96666-4444</p>
+                <p>Instagram: @pizzariaestrela</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Pôr do Sol</h3>
+                <p>Endereço: Av. do Sol, 789</p>
+                <p>Bairro: Praia do Sonho</p>
+                <p>Telefone: (48) 95555-5555</p>
+                <p>Instagram: @pizzariado pordosol</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria Gourmet</h3>
+                <p>Endereço: Rua do Comércio, 321</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 97777-6666</p <p>Instagram: @pizzariagourmet</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Jardim</h3>
+                <p>Endereço: Rua das Palmeiras, 654</p>
+                <p>Bairro: Jardim das Flores</p>
+                <p>Telefone: (48) 98888-7777</p>
+                <p>Instagram: @pizzariadojardim</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Pão</h3>
+                <p>Endereço: Rua do Pão, 111</p>
+                <p>Bairro: Lagoa do Peri</p>
+                <p>Telefone: (48) 91111-8888</p>
+                <p>Instagram: @pizzariado pão</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria da Tarde</h3>
+                <p>Endereço: Rua da Liberdade, 222</p>
+                <p>Bairro: Bairro Alto</p>
+                <p>Telefone: (48) 93333-9999</p>
+                <p>Instagram: @pizzariadatarde</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Mar</h3>
+                <p>Endereço: Av. do Mar, 303</p>
+                <p>Bairro: Praia do Sonho</p>
+                <p>Telefone: (48) 96666-0000</p>
+                <p>Instagram: @pizzariadomar</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Rock</h3>
+                <p>Endereço: Av. do Rock, 404</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 92222-1111</p>
+                <p>Instagram: @pizzariadorock</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria da Vila</h3>
+                <p>Endereço: Rua da Vila, 505</p>
+                <p>Bairro: Jardim das Flores</p>
+                <p>Telefone: (48) 95555-2222</p>
+                <p>Instagram: @pizzariadavila</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria do Sabor</h3>
+                <p>Endereço: Rua do Sabor, 707</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 97777-4444</p>
+                <p>Instagram: @pizzariadosabor</p>
+            </div>
+            <div class="pizzaria">
+                <h3>Pizzaria da Praça</h3>
+                <p>Endereço: Praça da Alegria, 808</p>
+                <p>Bairro: Bairro Alto</p>
+                <p>Telefone: (48) 96666-5555</p>
+                <p>Instagram: @pizzariadapraca</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pizzarias em Palhoça. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

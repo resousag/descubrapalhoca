@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <style>
+        .sorveteria-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .sorveteria {
+            width: 23%; /* Ajuste a largura para caber 4 itens por linha */
+            box-sizing: border-box; /* Inclui padding e border na largura */
+            margin-bottom: 20px; /* Espaçamento entre as linhas */
+            padding: 10px;
+            border: 1px solid #ccc; /* Adiciona uma borda para destaque */
+            border-radius: 5px; /* Cantos arredondados */
+            background-color: #f9f9f9; /* Fundo claro */
+        }
+        @media (max-width: 800px) {
+            .sorveteria {
+                width: 48%; /* Para telas menores, dois itens por linha */
+            }
+        }
+        @media (max-width: 500px) {
+            .sorveteria {
+                width: 100%; /* Para telas muito pequenas, um item por linha */
+            }
+        }
+    </style>
+    <title>Sorveterias em Palhoça</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="index.html#gastrinomia">Gastronomia</a>
+        </nav>
+    </header>
+
+    <main id="content">
+        <h1 class="title">Sorveterias em Palhoça</h1>
+        <div class="sorveteria-list">
+            <div class="sorveteria">
+                <h3>Sorveteria do Gaúcho</h3>
+                <p>Endereço: Rua da Fruta, 101</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 99999-1111</p>
+                <p>Instagram: @sorveteriado gaucho</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Lago</h3>
+                <p>Endereço: Av. das Águas, 202</p>
+                <p>Bairro: Lagoa do Peri</p>
+                <p>Telefone: (48) 94444-2222</p>
+                <p>Instagram: @sorveteriado lago</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Sol</h3>
+                <p>Endereço: Rua do Sol, 123</p>
+                <p>Bairro: Praia do Sonho</p>
+                <p>Telefone: (48) 99999-3333</p>
+                <p>Instagram: @sorveteriadosol</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria Estrela</h3>
+                <p>Endereço: Rua das Estrelas, 456</p>
+                <p>Bairro: Bairro Alto</p>
+                <p>Telefone: (48) 96666-4444</p>
+                <p>Instagram: @sorveteriaestrela</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Pôr do Sol</h3>
+                <p>Endereço: Av. do Sol, 789</p>
+                <p>Bairro: Praia do Sonho</p>
+                <p>Telefone: (48) 95555-5555</p>
+                <p>Instagram: @sorveteriadopordosol</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sor veteria Gourmet</h3>
+                <p>Endereço: Rua do Comércio, 321</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 97777-6666</p>
+                <p>Instagram: @sorveteriagourmet</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Jardim</h3>
+                <p>Endereço: Rua das Palmeiras, 654</p>
+                <p>Bairro: Jardim das Flores</p>
+                <p>Telefone: (48) 98888-7777</p>
+                <p>Instagram: @sorveteriadojardim</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Pão</h3>
+                <p>Endereço: Rua do Pão, 111</p>
+                <p>Bairro: Lagoa do Peri</p>
+                <p>Telefone: (48) 91111-8888</p>
+                <p>Instagram: @sorveteriadopao</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria da Tarde</h3>
+                <p>Endereço: Rua da Liberdade, 222</p>
+                <p>Bairro: Bairro Alto</p>
+                <p>Telefone: (48) 93333-9999</p>
+                <p>Instagram: @sorveteriadatarde</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Mar</h3>
+                <p>Endereço: Av. do Mar, 303</p>
+                <p>Bairro: Praia do Sonho</p>
+                <p>Telefone: (48) 96666-0000</p>
+                <p>Instagram: @sorveteriadomar</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Rock</h3>
+                <p>Endereço: Av. do Rock, 404</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 92222-1111</p>
+                <p>Instagram: @sorveteriadorock</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria da Vila</h3>
+                <p>Endereço: Rua da Vila, 505</p>
+                <p>Bairro: Jardim das Flores</p>
+                <p>Telefone: (48) 95555-2222</p>
+                <p>Instagram: @sorveteriadavila</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria do Sabor</h3>
+                <p>Endereço: Rua do Sabor, 707</p>
+                <p>Bairro: Centro</p>
+                <p>Telefone: (48) 97777-4444</p>
+                <p>Instagram: @sorveteriadosabor</p>
+            </div>
+            <div class="sorveteria">
+                <h3>Sorveteria da Praça</h3>
+                <p>Endereço: Praça da Alegria, 808</p>
+                <p>Bairro: Bairro Alto</p>
+                <p>Telefone: (48) 96666-5555</p>
+                <p>Instagram: @sorveteriadapraca</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sorveterias em Palhoça. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
